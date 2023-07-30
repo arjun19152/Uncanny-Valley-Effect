@@ -21,18 +21,21 @@ analysis have been performed.
 2) ROI_images_humanoid_2 : This folder contains the final filtered and ROI generated images of humanoid, on which the final
 analysis have been performed.
 
-3) robotic.py : This python code was used for calculating the count of gaze points falling in each ROI region (Eye and mouth) of 
+3) ROI generation: This code helps to generate the ROI on BSF images of humanoid and humans and then apply the same ROIs on the corresponding HSF and LSF images.
+
+4) Manual_ROI_generation : This python file was used to individually define ROI for eyes and mouth for robotic images, Here on the image the user has to drag and make a rectangle over the interested region and press "C" to see the defined ROI. On the output screen the user obtains the top_left coordinate and bottom right coordinate of the defined rectangle.
+
+5) robotic.py : This python code was used for calculating the count of gaze points falling in each ROI region (Eye and mouth) of 
 in every robotic/mechanical image and to finally plot the normalized bar plot.
 
-4) human.py : This python code was used for calculating the count of gaze points falling in each ROI region (Forehead. Eye, Nose, Mouth) of 
+6) human.py : This python code was used for calculating the count of gaze points falling in each ROI region (Forehead. Eye, Nose, Mouth) of 
 in every human image and to finally plot the normalized bar plot.
 
-5) humanoid.py : This python code was used for calculating the count of gaze points falling in each ROI region (Forehead. Eye, Nose, Mouth)  of 
+7) humanoid.py : This python code was used for calculating the count of gaze points falling in each ROI region (Forehead. Eye, Nose, Mouth)  of 
 in every humanoid image and to finally plot the normalized bar plot.
 
-6) robotROIData.csv : CSV file contains the coordinates of top_left_coordinate and bottom_right_coordinate of each ROI that has been defined.
-7) humanoidROIData.csv : CSV file contains the coordinates of top_left_coordinate and bottom_right_coordinate of each ROI that has been defined.
-8) humanROIData.csv : CSV file contains the coordinates of top_left_coordinate and bottom_right_coordinate of each ROI that has been defined.
+8) robotROIData.csv : CSV file contains the coordinates of top_left_coordinate and bottom_right_coordinate of each ROI that has been defined.
+9) humanoidROIData.csv : CSV file contains the coordinates of top_left_coordinate and bottom_right_coordinate of each ROI that has been defined.
+10) humanROIData.csv : CSV file contains the coordinates of top_left_coordinate and bottom_right_coordinate of each ROI that has been defined.
 
-9) Manual_ROI_generation : This python file was used to individually define ROI for eyes and mouth for robotic images, Here on the image the user has to drag and make a rectangle over the 
-interested region and press "C" to see the defined ROI. On the output screen the user obtains the top_left coordinate and bottom right coordinate of the defined rectangle.
+
